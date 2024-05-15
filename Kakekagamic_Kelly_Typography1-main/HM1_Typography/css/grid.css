@@ -1,0 +1,46 @@
+
+
+body, p, h1, header {
+    margin: 100px; 
+    padding: 5px;
+ }
+
+
+
+header {
+    text-align: center;
+}
+
+body { 
+    display: grid;
+    grid-template-columns: repeat(4, 1000px);
+    column-gap: 50px;
+    max-width: 412px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: aquamarine;
+    align-content: center;
+ }
+
+ @media screen and (min-width: 768px) {
+
+
+
+ }
+ 
+ /* 4. ---Desktop Library Grid Styles--- */
+ 
+ @media screen and (min-width: 1200px) {
+ 
+ 
+ 
+ }
+ 
+ /* 5. ---X-Large Desktop Library Grid Styles--- */
+ 
+ @media screen and (min-width: 1920px) { 
+ 
+ 
+ 
+ }
